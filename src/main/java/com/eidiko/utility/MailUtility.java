@@ -213,7 +213,7 @@ public class MailUtility {
 
 			msg[(msg.length)-1].setFlag(Flags.Flag.DELETED, true);
 			
-			System.out.println("Message Deleted .....");
+			System.out.println("Message Deleted ....."); 
 
 			folder.close(true);
 			store.close();
